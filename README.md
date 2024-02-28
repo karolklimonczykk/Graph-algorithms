@@ -109,7 +109,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
 <p align="center">
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-5.png" alt="step6" width="80%">
 </p>
-<p>
+<p align="center">
  After we visit the last element 3, it doesn't have any unvisited adjacent nodes, so we have completed the Depth First Traversal of the graph.
 </p>
 <h3>BFS vs DFS</h3>
