@@ -59,6 +59,7 @@ elete node 3 from queue and add it into visited. Insert all neighbors of node 3 
  Since the queue is empty, we have completed the Breadth First Traversal of the graph.
 </p>
 <h2>DFS - Depth-First Search
+ Example in a undirected graph with 5 vertices.
 </h2>
 <p>
 The DFS algorithm, which stands for Depth-First Search, is another fundamental graph traversal algorithm used to systematically explore a graph. Unlike BFS, which explores nodes level by level, DFS explores as far as possible along each branch before backtracking.
@@ -79,35 +80,35 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
 <b>Step 2:</b> Put node 0 (starting vertex) to visited list and push all its adjacent vertices in the stack
 </p>
 <p align="center">
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step2" width="80%">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-1.png" alt="step2" width="80%">
 </p>
 
 <p align="center">
 <b>Step 3:</b> Now, Node 1 at the top of the stack, so visit node 1 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack
 </p>
 <p align="center">
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step3" width="80%">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-2.png" alt="step3" width="80%">
 </p>
 
 <p align="center">
 <b>Step 4:</b> Here, Node 2 at the top of the stach, so visit node 2 and pop it from the stack and put all of adjacent nodes which are not visited in the stack (i.e, 3,4)
 </p>
 <p align="center">
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step4" width="80%">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-3.png" alt="step4" width="80%">
 </p>
 
 <p align="center">
 <b>Step 5:</b> Now, Node 4 at the top of the stack, so visit node 4 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack
 </p>
 <p align="center">
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step5" width="80%">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-4.png" alt="step5" width="80%">
 </p>
 
 <p align="center">
 <b>Step 6:</b> Now, Node 3 at the top of the stack, so visit node 3 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
 </p>
 <p align="center">
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step6" width="80%">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-5.png" alt="step6" width="80%">
 </p>
 <h3>BFS vs DFS</h3>
 <h2>References</h2>
