@@ -91,7 +91,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
 </p>
 
 <p align="center">
-<b>Step 4:</b> Here, Node 2 at the top of the stach, so visit node 2 and pop it from the stack and put all of adjacent nodes which are not visited in the stack (i.e, 3,4)
+<b>Step 4:</b> Here, Node 2 at the top of the stack, so visit node 2 and pop it from the stack and put all of adjacent nodes which are not visited in the stack (i.e, 3,4)
 </p>
 <p align="center">
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-3.png" alt="step4" width="80%">
