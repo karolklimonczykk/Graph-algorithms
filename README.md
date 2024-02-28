@@ -70,7 +70,7 @@ Example in a undirected graph with 5 vertices.
 
 <h3>BFS vs DFS</h3>
 <h2>References</h2>
-<li>
-  <ul>Images are taken from <a href="https://www.programiz.com/dsa/graph-bfs">here</a></ul>
-  <ul>GIFs are taken from <a href="https://github.com/kdn251/interviews">here</a></ul>
-</li>
+<ul>
+  <li>Images are taken from <a href="https://www.programiz.com/dsa/graph-bfs">here</a></li>
+  <li>GIFs are taken from <a href="https://github.com/kdn251/interviews">here</a></li>
+</ul>
