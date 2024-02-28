@@ -1,7 +1,7 @@
 # Graph Algorithms
 <h2>Purpose</h2>
 <p>
-I wrote implementations of these graph algorithms (BFS and DFS) and performed some tasks on them to better undestand how it work. </br>
+I wrote my own implementations of graph algorithms (BFS and DFS) and performed some tasks on them to better undestand how it work. </br>
 Graph abstraction is a powerful problem-solving tool used fordescribing relationships between discrete objects. In this repository I will focus on two algorithms and the differences between them. <br>
 </p>
 <h2>
@@ -44,8 +44,9 @@ Example in a undirected graph with 5 vertices.
 </p>
 <p align="center">
 <b>Step 5:</b> 
+elete node 3 from queue and add it into visited. Insert all neighbors of node 3 to queue. Since all the neighbors of node 3 are already present, we will not insert them again.
 </p>
-<p align="center">Delete node 3 from queue and add it into visited. Insert all neighbors of node 3 to queue. Since all the neighbors of node 3 are already present, we will not insert them again.
+<p align="center">D
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-4.png" alt="step5" width="80%">
 </p>
 <p align="center">
@@ -60,14 +61,54 @@ Example in a undirected graph with 5 vertices.
 <h2>DFS - Depth-First Search
 </h2>
 <p>
-
+The DFS algorithm, which stands for Depth-First Search, is another fundamental graph traversal algorithm used to systematically explore a graph. Unlike BFS, which explores nodes level by level, DFS explores as far as possible along each branch before backtracking.
 </p>
 <h3>How it works?</h3>
 <p>
-
+Depth-first search is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 </p>
-<h3>BFS step-by-step</h3>
+<h3>DFS step-by-step</h3>
+<p align="center">
+<b>Step 1:</b> Initially stack and visited arrays are empty
+</p>
+<p align="center">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step1" width="80%">
+</p>
 
+<p align="center">
+<b>Step 2:</b> Initially queue and visited arrays are empty
+</p>
+<p align="center">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step2" width="80%">
+</p>
+
+<p align="center">
+<b>Step 3:</b> Now, Node 1 at the top of the stack, so visit node 1 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack
+</p>
+<p align="center">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step3" width="80%">
+</p>
+
+<p align="center">
+<b>Step 4:</b> Here, Node 2 at the top of the stach, so visit node 2 and pop it from the stack and put all of adjacent nodes which are not visited in the stack (i.e, 3,4)
+</p>
+<p align="center">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step4" width="80%">
+</p>
+
+<p align="center">
+<b>Step 5:</b> Now, Node 4 at the top of the stack, so visit node 4 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack
+</p>
+<p align="center">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step5" width="80%">
+</p>
+
+<p align="center">
+<b>Step 6:</b> Now, Node 3 at the top of the stack, so visit node 3 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
+</p>
+<p align="center">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step6" width="80%">
+</p>
 <h3>BFS vs DFS</h3>
 <h2>References</h2>
 <ul>
