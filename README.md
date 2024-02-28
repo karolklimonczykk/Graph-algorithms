@@ -17,9 +17,9 @@ The algorithm works in O(n+m) mode, where n is the number of vertices and m is t
 Starting from the root, all the nodes at a particular level are visited first and then the nodes of the next level are traversed till all the nodes are visited. To do this a queue is used. All the adjacent unvisited nodes of the current level are pushed into the queue and the nodes of the current level are marked visited and popped from the queue.
 </p>
 <h3>BFS step-by-step</h3>
-<div style="background-color: rgb(300, 300, 300);">
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-0.png" alt="bfsexample" width="80%" style="background-color:transparent;">
-</div>
+<p align="center style="background-color: rgb(300, 300, 300);">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-0.png" alt="bfsexample" width="80%" style="">
+</p>
 <h2>DFS - Depth-First Search
 </h2>
 <p>
