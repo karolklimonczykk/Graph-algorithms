@@ -37,22 +37,25 @@ Example in a undirected graph with 5 vertices.
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-2_2.png" alt="step3" width="80%">
 </p>
 <p align="center">
-<b>Step 4:</b> Visit the next vertex in the queue - vertex 2 (delete it from queue and add to visited) - it has unvisited vertex 4, so add it to the end of the queue.
+<b>Step 4:</b> Visit the next vertex in the queue - vertex 2 (delete it from queue and add to visited) - it has unvisited vertex 4, so add it to the end of the queue and visit 3, that is at the front of the queue.
 </p>
 <p align="center">
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-3.png" alt="step4" width="80%">
 </p>
 <p align="center">
-<b>Step 5:</b> Delete node 2 from queue and add it to visited.
+<b>Step 5:</b> 
 </p>
-<p align="center">
+<p align="center">Delete node 3 from queue and add it into visited. Insert all neighbors of node 3 to queue. Since all the neighbors of node 3 are already present, we will not insert them again.
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-4.png" alt="step5" width="80%">
 </p>
 <p align="center">
-<b>Step 6:</b> Initially queue and visited arrays are empty.
+<b>Step 6:</b> - Visit the last one node from queue. Delete node 4 from there and add to visited. Since all of its neighbors have already been added, so we will not insert them again. Now, all the nodes are visited.
 </p>
 <p align="center">
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-5.png" alt="step6" width="80%">
+</p>
+<p align="center">
+ Since the queue is empty, we have completed the Breadth First Traversal of the graph.
 </p>
 <h2>DFS - Depth-First Search
 </h2>
@@ -65,4 +68,9 @@ Example in a undirected graph with 5 vertices.
 </p>
 <h3>BFS step-by-step</h3>
 
-<h3>porownanie</h3>
+<h3>BFS vs DFS</h3>
+<h2>References</h2>
+<li>
+  <ul>Images are taken from <a href="https://www.programiz.com/dsa/graph-bfs">here</a></ul>
+  <ul>GIFs are taken from <a href="https://github.com/kdn251/interviews">here</a></ul>
+</li>
