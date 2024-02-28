@@ -11,14 +11,10 @@ BSF - Breadth Search First
 <p>
   Breadth Search First (BSF) is one of the main ones
 algorithms on graphs.
-As a result of breadth-first search, a path with the shortest length w is found
-unweighted graph, i.e. the path containing the fewest number of edges.
-The algorithm works in O(n+m) mode, where n is the number of vertices and m is the number
-edge.
+As a result of breadth-first search, a path with the shortest length w is found unweighted graph, i.e. the path containing the fewest number of edges.
+The algorithm works in O(n+m) mode, where n is the number of vertices and m is the number edge.
 </p>
-<p><b>How it works ?</b></p>
+<h3>How it works ?</h3>
 <p>
-  Starting from the root, all the nodes at a particular level are visited first and then the nodes of the next level are traversed till all the nodes are visited.
-
-To do this a queue is used. All the adjacent unvisited nodes of the current level are pushed into the queue and the nodes of the current level are marked visited and popped from the queue.
+Starting from the root, all the nodes at a particular level are visited first and then the nodes of the next level are traversed till all the nodes are visited. To do this a queue is used. All the adjacent unvisited nodes of the current level are pushed into the queue and the nodes of the current level are marked visited and popped from the queue.
 </p>
