@@ -76,7 +76,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
 </p>
 
 <p align="center">
-<b>Step 2:</b> Initially queue and visited arrays are empty
+<b>Step 2:</b> Put node 0 (starting vertex) to visited list and push all its adjacent vertices in the stack
 </p>
 <p align="center">
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-dfs-step-0.png" alt="step2" width="80%">
