@@ -58,9 +58,7 @@ elete node 3 from queue and add it into visited. Insert all neighbors of node 3 
 <p align="center">
  Since the queue is empty, we have completed the Breadth First Traversal of the graph.
 </p>
-<h2>DFS - Depth-First Search
- Example in a undirected graph with 5 vertices.
-</h2>
+<h2>DFS - Depth-First Search</h2>
 <p>
 The DFS algorithm, which stands for Depth-First Search, is another fundamental graph traversal algorithm used to systematically explore a graph. Unlike BFS, which explores nodes level by level, DFS explores as far as possible along each branch before backtracking.
 </p>
@@ -69,6 +67,7 @@ The DFS algorithm, which stands for Depth-First Search, is another fundamental g
 Depth-first search is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 </p>
 <h3>DFS step-by-step</h3>
+ Example in a undirected graph with 5 vertices.
 <p align="center">
 <b>Step 1:</b> Initially stack and visited arrays are empty
 </p>
