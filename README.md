@@ -23,7 +23,7 @@ Example in a undirected graph with 5 vertices.
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-0.png" alt="step1" width="80%">
 </p>
 <p align="center">
-<b>Step 2:</b> Push node 0 into queue and mark it visited and put all its adjacent vertices in the stack
+<b>Step 2:</b> Push node 0 into queue and mark it visited and put all its adjacent vertices in the queue
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-1.png" alt="step2" width="80%">
 </p>
 <p align="center">
