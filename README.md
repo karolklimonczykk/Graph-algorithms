@@ -1,9 +1,9 @@
+# Graph Algorithms
 <style>
- table{
+ table,tr,td,th{
   text-align:center;
  }
 </style>
-# Graph Algorithms
 <h2>Purpose</h2>
 <p>
 I wrote my own implementations of graph algorithms (BFS and DFS) and performed some tasks on them to better undestand how it work. </br>
