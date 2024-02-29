@@ -125,7 +125,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
   </tr>
 </thead>
 <tbody>
-  <tr style="text-align:center;">
+  <tr>
     <td>Data Structure</td>
     <td>uses Queue data structure for finding the shortest path.</td>
     <td>uses Stack data structure.</td>
