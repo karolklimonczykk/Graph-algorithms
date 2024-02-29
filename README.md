@@ -1,3 +1,8 @@
+<style>
+ table{
+  text-align:center;
+ }
+</style>
 # Graph Algorithms
 <h2>Purpose</h2>
 <p>
