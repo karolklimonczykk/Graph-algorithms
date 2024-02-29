@@ -1,7 +1,7 @@
 # Graph Algorithms
 <h2>Purpose</h2>
 <p>
-I wrote my own implementations of graph algorithms (BFS and DFS) and performed some tasks on them to better undestand how it work. </br>
+I wrote my own implementations of graph algorithms (BFS and DFS) and performed some tasks on them to better undestand how it works. </br>
 Graph abstraction is a powerful problem-solving tool used fordescribing relationships between discrete objects. In this repository I will focus on two algorithms and the differences between them. <br>
 </p>
 <h2>
