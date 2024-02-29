@@ -141,7 +141,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
     <td>It works on the concept of LIFO (Last In First Out).</td>
   </tr>
   <tr>
-    <td><Suitable for</td>
+    <td>Suitable for</td>
     <td>BFS is more suitable for searching vertices closer to the given source.</td>
     <td>DFS is more suitable when there are solutions away from source.</td>
   </tr>
