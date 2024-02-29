@@ -10,7 +10,7 @@ BFS - Breadth-First Search
 <p>
 Breadth-First Search (BFS) is one of the main ones algorithms on graphs.
 As a result of breadth-first search, a path with the shortest length w is found unweighted graph, i.e. the path containing the fewest number of edges.
-The algorithm works in O(n+m) mode, where n is the number of vertices and m is the number edge.
+Since we enqueue each vertex at most once, the overall time complexity is O(|V| + |E|)., where V is the number of vertices and E is the number edge.
 </p>
 <h3>How it works?</h3>
 <p>
@@ -60,7 +60,7 @@ elete node 3 from queue and add it into visited. Insert all neighbors of node 3 
 </p>
 <h2>DFS - Depth-First Search</h2>
 <p>
-The DFS algorithm, which stands for Depth-First Search, is another fundamental graph traversal algorithm used to systematically explore a graph. Unlike BFS, which explores nodes level by level, DFS explores as far as possible along each branch before backtracking.
+The DFS algorithm, which stands for Depth-First Search, is another fundamental graph traversal algorithm used to systematically explore a graph. Unlike BFS, which explores nodes level by level, DFS explores as far as possible along each branch before backtracking. The overall time complexity remains the same - O(|V| + |E|).
 </p>
 <h3>How it works?</h3>
 <p>
