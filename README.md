@@ -1,9 +1,4 @@
 # Graph Algorithms
-<style>
- table,tr,td,th{
-  text-align:center;
- }
-</style>
 <h2>Purpose</h2>
 <p>
 I wrote my own implementations of graph algorithms (BFS and DFS) and performed some tasks on them to better undestand how it work. </br>
@@ -121,7 +116,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
 <p align="center">
 <img src="https://raw.githubusercontent.com/kdn251/interviews/master/images/dfsbfs.gif" alt="dfsVSbfs" width="80%">
 </p>
-<table align="center" style="text-align:center">
+<table align="center">
 <thead>
   <tr>
     <th>Parameters</th>
@@ -130,7 +125,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
   </tr>
 </thead>
 <tbody>
-  <tr>
+  <tr style="text-align:center;">
     <td>Data Structure</td>
     <td>uses Queue data structure for finding the shortest path.</td>
     <td>uses Stack data structure.</td>
