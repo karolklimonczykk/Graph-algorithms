@@ -125,32 +125,32 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
   </tr>
 </thead>
 <tbody>
-  <tr>
+  <tr align="center">
     <td>Data Structure</td>
     <td>uses Queue data structure for finding the shortest path.</td>
     <td>uses Stack data structure.</td>
   </tr>
-  <tr>
+  <tr align="center">
     <td>Order of exploration</td>
     <td>	explores nodes level by level, starting from the initial node and moving to its adjacent nodes before moving deeper into the graph.  </td>
     <td>explores as far as possible along each branch before backtracking. It traverses deeply into the graph, exploring one branch completely before moving on to the next branch.</td>
   </tr>
-  <tr>
-    <td>Approach used</td>
+  <tr align="center">
+    <td >Approach used</td>
     <td>It works on the concept of FIFO (First In First Out). </td>
     <td>It works on the concept of LIFO (Last In First Out).</td>
   </tr>
-  <tr>
+  <tr align="center">
     <td>Suitable for</td>
     <td>BFS is more suitable for searching vertices closer to the given source.</td>
     <td>DFS is more suitable when there are solutions away from source.</td>
   </tr>
-  <tr>
+  <tr align="center">
     <td>Applications</td>
     <td>BFS is often used for finding the shortest path in unweighted graphs, topological sorting, and finding connected components in an undirected graph.</td>
     <td>DFS is commonly used for detecting cycles in graphs, maze solving, generating permutations or combinations, and depth-limited search in games.</td>
   </tr>
-  <tr>
+  <tr align="center">
     <td>Completeness</td>
     <td>BFS is complete, meaning it will always find a solution if one exists.</td>
     <td>DFS is not necessarily complete. In infinite graphs or graphs with cycles, DFS may get stuck in an infinite loop without finding a solution.</td>
