@@ -116,7 +116,7 @@ Depth-first search is an algorithm for traversing or searching tree or graph dat
 <p align="center">
 <img src="https://raw.githubusercontent.com/kdn251/interviews/master/images/dfsbfs.gif" alt="dfsVSbfs" width="80%">
 </p>
-<table align="center">
+<table align="center" style="text-align:center">
 <thead>
   <tr>
     <th>Parameters</th>
