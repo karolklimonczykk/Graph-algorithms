@@ -44,13 +44,13 @@ Example in a undirected graph with 5 vertices.
 </p>
 <p align="center">
 <b>Step 5:</b> 
-elete node 3 from queue and add it into visited. Insert all neighbors of node 3 to queue. Since all the neighbors of node 3 are already present, we will not insert them again.
+Delete node 3 from queue and add it into visited. Insert all neighbors of node 3 to queue. Since all the neighbors of node 3 are already present, we will not insert them again.
 </p>
-<p align="center">D
+<p align="center">
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-4.png" alt="step5" width="80%">
 </p>
 <p align="center">
-<b>Step 6:</b> - Visit the last one node from queue. Delete node 4 from there and add to visited. Since all of its neighbors have already been added, so we will not insert them again. Now, all the nodes are visited.
+<b>Step 6:</b>Visit the last one node from queue. Delete node 4 from there and add to visited. Since all of its neighbors have already been added, so we will not insert them again. Now, all the nodes are visited.
 </p>
 <p align="center">
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-bfs-step-5.png" alt="step6" width="80%">
